@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <form id="order_form" >
+  <h2>Books Order Form</h2>
+
+  <label for="full_name">Full name:</label><br>
+  <input type="text" id="full_name" name="full_name" placeholder="FirstName LastName" autofocus required><br><br>
+
+  <label for="email_addr">Email address:</label><br>
+  <input type="email" id="email_addr" name="email_addr" placeholder="xyz@xyz.com" required><br>
+<br>
+  <label for="Name_Title">Name of the Title:</label><br>
+  <input type="text" name="book_name" placeholder="xxxx yyyy zzzz" required><br>
+<br>
+  <label for="package">Books Category :</label><br>
+  <select id="package" name="package">
+    <option value="Gothic">Gothic</option>
+    <option value="Thriller">Thriller</option>
+    <option value="Suspense">Suspense</option>
+    <option value="Mystry">Mystry</option>
+    <option value="Romance">Romance</option>
+    <option value="Adventure">Adventure</option>
+    <option value="sci_fi">Sci-Fi</option>
+  </select><br><br>
+
+  <label for="Delivery Date">Books Delivery Date*:</label><br>
+  <input type="date" id="deli_date" name="deli_date" required><br><br>
+
+  <label>Do You want any Additional Stationary ?:*</label>
+  <br>
+  <input type="checkbox" id="Mechanical Pencil" name="" value="pcil">
+  <label for="mech_pcil">Mechanical Pencil</label><br>
+  <input type="checkbox" id="pen" name="" value="pen">
+  <label for="pen">Pen</label><br>
+  <input type="checkbox" id="paper_sheets" name="" value="psheets">
+  <label for="paper_sheets">Paper Sheets</label><br>
+  <label for="else">if you dont find the required option:</label>
+  <textarea rows="1" cols="20"></textarea><br><br>
+
+  <label for="referal_code">Referral code:</label>
+  <input type="text" id="referal_code" name="referal_code" placeholder="xxxxxxxx"><br><br>
+
+  <button type="submit">Confirm Order</button>
+</form>
+  </body>
+</html>
+
